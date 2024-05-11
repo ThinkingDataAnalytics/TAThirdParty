@@ -100,7 +100,7 @@ PODS:
   - nanopb/decode (2.30908.0)
   - nanopb/encode (2.30908.0)
   - PromisesObjC (2.3.1)
-  - TAThirdParty (0.3.1)
+  - TAThirdParty (0.3.3)
   - ThinkingDataCore (1.0.1):
     - ThinkingDataCore/Main (= 1.0.1)
   - ThinkingDataCore/iOS (1.0.1)
@@ -185,11 +185,11 @@ SPEC CHECKSUMS:
   IronSourceSDK: 89168ab902229f4447f401dc8d2ac51308a85524
   nanopb: a0ba3315591a9ae0a16a309ee504766e90db0c96
   PromisesObjC: c50d2056b5253dadbd6c2bea79b0674bd5a52fa4
-  TAThirdParty: 84a573aa73b99bc7230e9934526793fb25a85ada
+  TAThirdParty: 46e928a4d34fd30d6333fc8ec4e4db1caba25152
   ThinkingDataCore: 1ef8b754e80718e0533503d95045ab8a7e3ea6b3
   ThinkingSDK: ecec6cf436519f8abbc3dcf755d929386894677d
   TradPlusAdSDK: 43b6e23b646bf347d578723de9e7b9dec4f55eeb
 
 PODFILE CHECKSUM: e45e2dd36538fba8efb4bd62ed557d7d830d0dc3
 
-COCOAPODS: 1.12.0
+COCOAPODS: 1.15.2

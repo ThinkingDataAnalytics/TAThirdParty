@@ -34,15 +34,15 @@
     
 //    [AppsFlyerLib shared].isDebug = 1;
 //    [[AppsFlyerLib shared] setIsDebug:YES];
-//    [AppsFlyerLib shared].appsFlyerDevKey = @"FVAvxeH7HPCVZ67QrjQPqQ";
-//    [AppsFlyerLib shared].appleAppID = @"1562111162";
+//    [AppsFlyerLib shared].appsFlyerDevKey = @"aaaa";
+//    [AppsFlyerLib shared].appleAppID = @"22222";
 //    [AppsFlyerLib shared].delegate = self;
 
     
     
     [TDAnalytics enableLog:YES];
-    NSString *appid = @"1b1c1fef65e3482bad5c9d0e6a823356";
-    NSString *url = @"http://receiver.ta.thinkingdata.cn/";
+    NSString *appid = @"appId";
+    NSString *url = @"serverUrl";
     TDConfig *config = [[TDConfig alloc] initWithAppId:appid serverUrl:url];
     [TDAnalytics startAnalyticsWithConfig:config];
     [TDAnalytics login:@"j9nb91876thmct8"];
