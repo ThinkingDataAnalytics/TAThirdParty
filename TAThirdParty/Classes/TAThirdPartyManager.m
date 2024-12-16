@@ -37,8 +37,6 @@ static NSString * const KEY_THIRD_PARTY_CLASS_NAME = @"libClass";
 static NSString * const KEY_TA_PLUGIN_CLASS_NAME = @"taThirdClass";
 static NSString * const KEY_ERROR_MESSAGE = @"errorMes";
 
-// Register a third-party data collection service, and when the APP starts, it will start from the data area
-char * kThinkingServices_service __attribute((used, section("__DATA, ThinkingServices"))) = "{ \"TAThirdPartyProtocol\" : \"TAThirdPartyManager\"}";
 @interface TAThirdPartyManager()<TAThirdPartyProtocol>
 
 @end

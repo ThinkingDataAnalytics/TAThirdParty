@@ -133,7 +133,7 @@ DEPENDENCIES:
   - Branch (~> 1.39.1)
   - Firebase/Analytics
   - IronSourceSDK (= 7.1.8.0)
-  - TAThirdParty (from `../`)
+  - TAThirdParty (= 0.3.3)
   - ThinkingSDK (= 3.0.0)
   - TradPlusAdSDK (= 6.9.10)
   - TradPlusAdSDK/BaiduAdapter (= 6.9.10)
@@ -159,13 +159,10 @@ SPEC REPOS:
     - IronSourceSDK
     - nanopb
     - PromisesObjC
+    - TAThirdParty
     - ThinkingDataCore
     - ThinkingSDK
     - TradPlusAdSDK
-
-EXTERNAL SOURCES:
-  TAThirdParty:
-    :path: "../"
 
 SPEC CHECKSUMS:
   Adjust: 91a06a01e4bb35b432e26b5d5bb8995b95fc381c
@@ -190,6 +187,6 @@ SPEC CHECKSUMS:
   ThinkingSDK: ecec6cf436519f8abbc3dcf755d929386894677d
   TradPlusAdSDK: 43b6e23b646bf347d578723de9e7b9dec4f55eeb
 
-PODFILE CHECKSUM: e45e2dd36538fba8efb4bd62ed557d7d830d0dc3
+PODFILE CHECKSUM: ec0d736d761913db5a8cf729973616c3d7a4de19
 
 COCOAPODS: 1.15.2

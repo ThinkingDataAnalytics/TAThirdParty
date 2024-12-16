@@ -27,14 +27,10 @@
     Class cls = NSClassFromString(@"AppsFlyerLib");
     SEL sel1 = NSSelectorFromString(@"shared");
     SEL sel2 = NSSelectorFromString(@"setAdditionalData:");
-    SEL sel3 = NSSelectorFromString(@"setCustomerUserID:");
     if (cls && [cls respondsToSelector:sel1]) {
         id instance = [cls performSelector:sel1];
         if ([instance respondsToSelector:sel2]) {
             [instance performSelector:sel2 withObject:datas];
-        }
-        if ([instance respondsToSelector:sel3]) {
-            [instance performSelector:sel3 withObject:accountID];
         }
     }
 }
