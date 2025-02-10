@@ -10,7 +10,7 @@
 #import <ThinkingSDK/ThinkingSDK.h>
 #import <AppsFlyerLib/AppsFlyerLib.h>
 #import <IronSource/IronSource.h>
-#import <Adjust/Adjust.h>
+#import <AdjustSdk/AdjustSdk.h>
 #import <Branch/Branch.h>
 #import <AnyThinkSDK/AnyThinkSDK.h>
 

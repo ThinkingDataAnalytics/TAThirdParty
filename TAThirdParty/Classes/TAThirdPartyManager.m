@@ -37,6 +37,7 @@ static NSString * const KEY_THIRD_PARTY_CLASS_NAME = @"libClass";
 static NSString * const KEY_TA_PLUGIN_CLASS_NAME = @"taThirdClass";
 static NSString * const KEY_ERROR_MESSAGE = @"errorMes";
 
+char * kThinkingServices_service __attribute((used, section("__DATA, ThinkingServices"))) = "{ \"TAThirdPartyProtocol\" : \"TAThirdPartyManager\"}";
 @interface TAThirdPartyManager()<TAThirdPartyProtocol>
 
 @end

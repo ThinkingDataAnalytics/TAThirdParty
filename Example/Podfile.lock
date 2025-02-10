@@ -1,7 +1,9 @@
 PODS:
-  - Adjust (4.29.7):
-    - Adjust/Core (= 4.29.7)
-  - Adjust/Core (4.29.7)
+  - Adjust (5.1.0):
+    - Adjust/Adjust (= 5.1.0)
+  - Adjust/Adjust (5.1.0):
+    - AdjustSignature (= 3.35.2)
+  - AdjustSignature (3.35.2)
   - AnyThinkiOS (6.2.75):
     - AnyThinkiOS/AnyThinkSDK (= 6.2.75)
   - AnyThinkiOS/AnyThinkSDK (6.2.75)
@@ -100,7 +102,7 @@ PODS:
   - nanopb/decode (2.30908.0)
   - nanopb/encode (2.30908.0)
   - PromisesObjC (2.3.1)
-  - TAThirdParty (0.3.3)
+  - TAThirdParty (0.3.5)
   - ThinkingDataCore (1.0.1):
     - ThinkingDataCore/Main (= 1.0.1)
   - ThinkingDataCore/iOS (1.0.1)
@@ -125,7 +127,7 @@ PODS:
   - TradPlusAdSDK/TradPlusAds (6.9.10)
 
 DEPENDENCIES:
-  - Adjust (~> 4.29.2)
+  - Adjust (~> 5.1.0)
   - AnyThinkiOS
   - AppLovinSDK
   - AppsFlyerFramework
@@ -133,7 +135,7 @@ DEPENDENCIES:
   - Branch (~> 1.39.1)
   - Firebase/Analytics
   - IronSourceSDK (= 7.1.8.0)
-  - TAThirdParty (= 0.3.3)
+  - TAThirdParty (from `../`)
   - ThinkingSDK (= 3.0.0)
   - TradPlusAdSDK (= 6.9.10)
   - TradPlusAdSDK/BaiduAdapter (= 6.9.10)
@@ -143,6 +145,7 @@ DEPENDENCIES:
 SPEC REPOS:
   trunk:
     - Adjust
+    - AdjustSignature
     - AnyThinkiOS
     - AppLovinSDK
     - AppsFlyerFramework
@@ -159,13 +162,17 @@ SPEC REPOS:
     - IronSourceSDK
     - nanopb
     - PromisesObjC
-    - TAThirdParty
     - ThinkingDataCore
     - ThinkingSDK
     - TradPlusAdSDK
 
+EXTERNAL SOURCES:
+  TAThirdParty:
+    :path: "../"
+
 SPEC CHECKSUMS:
-  Adjust: 91a06a01e4bb35b432e26b5d5bb8995b95fc381c
+  Adjust: 3ba600784c200eb13664e92f8385230750682d4f
+  AdjustSignature: 23b9e5d4adcadffc303bb6b410fde617dd88504f
   AnyThinkiOS: feef8eae1a0ec1f8442a6a4b23751127754d0533
   AppLovinSDK: 623ef78363c0dd2c3ff5446cde37e4920a96b7e0
   AppsFlyerFramework: 6eb4d89d2eb9a6632317f1055b359d9fd85fd5ff
@@ -182,11 +189,11 @@ SPEC CHECKSUMS:
   IronSourceSDK: 89168ab902229f4447f401dc8d2ac51308a85524
   nanopb: a0ba3315591a9ae0a16a309ee504766e90db0c96
   PromisesObjC: c50d2056b5253dadbd6c2bea79b0674bd5a52fa4
-  TAThirdParty: 46e928a4d34fd30d6333fc8ec4e4db1caba25152
+  TAThirdParty: 65db0235cd209237781535f19f9d0eef706156e5
   ThinkingDataCore: 1ef8b754e80718e0533503d95045ab8a7e3ea6b3
   ThinkingSDK: ecec6cf436519f8abbc3dcf755d929386894677d
   TradPlusAdSDK: 43b6e23b646bf347d578723de9e7b9dec4f55eeb
 
-PODFILE CHECKSUM: ec0d736d761913db5a8cf729973616c3d7a4de19
+PODFILE CHECKSUM: 2c69210bae49c8fbe2dac09f1f7fcec4eb75f3f6
 
-COCOAPODS: 1.15.2
+COCOAPODS: 1.16.2
